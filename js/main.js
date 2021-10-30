@@ -1,4 +1,4 @@
-$(function () {
+/*$(function () {
     'use strict';
     $('#sendform').on('submit', function (e) {
         e.preventDefault();
@@ -21,4 +21,8 @@ $(function () {
             }
         });
     });
-});
+}); */
+
+$('a').click(function(){
+    $('.email').addClass('click')
+})

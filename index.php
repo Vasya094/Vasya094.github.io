@@ -37,34 +37,34 @@
                 </a>
                 <p>COMING SOON! Stay tuned to something amazing</p>
             </div>
-            <button class="butt butt_blue">Notify me!</button>
+            <a href="#feedback" class="butt butt_blue">Notify me!</a>
         </header>
         <div class="slider">
             <div class="slide slide_1">
                 <h2>Loved by Traders, Cherished by Copiers</h2>
                 <p>Traders Trade, Copiers Copy... It’s that easy!</p>
-                <button class="butt butt_white">Notify me!</button>
+                <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_2">
                 <h2>Interested in a Passive investment?</h2>
                 <p>Look over the historical trading results of traders. Select a trader and copy their trades in real
                     time.<p>
-                        <button class="butt butt_white">Notify me!</button>
+                        <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_3">
                 <h2>Trade like you've got a robot looking over the shoulder of a Day Trader</h2>
 
-                <button class="butt butt_white">Notify me!</button>
+                <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_4">
                 <h2>Sit back and review the results -</h2>
                 <p>Traders Trade, Copiers Copy... It's that easy!</p>
-                <button class="butt butt_white">Notify me!</button>
+                <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_5">
                 <h2>Trade the trades that Traders take till their trade trend terminates</h2>
 
-                <button class="butt butt_white">Notify me!</button>
+                <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
         </div>
         <div class="main">
@@ -78,7 +78,7 @@
                     <img src="./img/binanse.png" alt="binanse">
                     <img src="./img/ftx.png" alt="ftx">
                 </div>
-                <div class="feedback">
+                <div class="feedback" id="feedback">
                     <p>Live the Laptop Lifestyle without the need for a Laptop...</p>
                     <form id="sendform"action="">
                         <input class="email" type="email" placeholder="email">

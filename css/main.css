@@ -42,10 +42,18 @@ p, h2, a {
     color: white;
     margin-top: 10px;
     cursor: pointer;
+    line-height: 40px;
+    text-decoration: none;
+    background: #0078D7;
 }
 
 .header .butt.butt_blue {
     background: #0078D7;
+}
+.butt.butt_white {
+    padding: 10px 20px;
+    background: white;
+    color: #0078D7;
 }
 
 .slider {
@@ -206,6 +214,16 @@ form .email {
     vertical-align: top;
     border: 1px solid #d5d5d5;
     border-radius: 5px;
+}
+
+@keyframes email {
+    0% {background: white;}
+    50% {background: red;}
+    100% {background: white;}
+}
+form .email.click {
+    animation-name: email;
+    animation-duration: 2s;
 }
 
 form .submit {
