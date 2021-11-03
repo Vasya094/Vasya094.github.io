@@ -104,7 +104,6 @@
                     <a href="/"></a>
                     <a href="/"></a>
                     <a href="/"></a>
-                    <a href="/"></a>
                 </div>
                 <button class="butt butt_red">NO BULLSHIT</button>
             </div>

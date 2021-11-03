@@ -311,11 +311,7 @@ footer .black_line  .pay_link a:nth-child(2) {
     background:white url('../img/master.png') 3px no-repeat;
     background-size: 80%
 }
-footer .black_line  .pay_link a:nth-child(3){
-    background:white url('../img/paypal.png') 3px no-repeat;
-    background-size: 90%
-}
-footer .black_line  .pay_link a:nth-child(4) {
+footer .black_line  .pay_link a:nth-child(3) {
     background:white url('../img/bitcoin.png') 7px no-repeat;
     background-size: 60%
 }
