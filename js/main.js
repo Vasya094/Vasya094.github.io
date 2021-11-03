@@ -6,7 +6,7 @@ $(function () {
         var email = e.target[0].value;
         debugger
         $.ajax({
-            url: 'http://localhost:5000/api/emails',
+            url: 'https://email-table-back.herokuapp.com/api/emails',
             type: 'POST',
             contentType: 'application/json; charset=utf-8',
             processData: false,
