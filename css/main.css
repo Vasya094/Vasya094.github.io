@@ -218,7 +218,7 @@ form .email {
 
 @keyframes email {
     0% {background: white;}
-    50% {background: red;}
+    50% {background: rgba(255, 115, 115, 0.4);}
     100% {background: white;}
 }
 form .email.click {
