@@ -9,6 +9,9 @@ function playVid() {
 video.addEventListener("pause", () => {
   btnPlay.style.visibility = "visible"
 })
+video.addEventListener("play", () => {
+  btnPlay.style.visibility = "hidden"
+})
 
 btnPlay.addEventListener("click", playVid)
 
