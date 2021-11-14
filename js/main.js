@@ -23,22 +23,13 @@ function gi() {
     })
   }
 }
-window.addEventListener("load", setupVideos, false)
-
-video.addEventListener("play", (event) => {
-  console.log(
-    "The Boolean paused property is now false. Either the " +
-      "play() method was called or the autoplay attribute was toggled."
-  )
-})
 
 $(function () {
   "use strict"
   $("#sendform").on("submit", function (e) {
     e.preventDefault()
-    // var fd = new FormData(this);
+    console.log("!!!")
     var email = e.target[0].value
-    debugger
     $.ajax({
       url: "https://email-table-back.herokuapp.com/api/emails",
       type: "POST",
