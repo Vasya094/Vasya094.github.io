@@ -19,7 +19,7 @@
     <!-- <script src="/scripts/viewer.js"></script> -->
     <script async src="./js/main.js?<?php echo time(); ?>"></script>
     <meta name="viewport" id="view" content="width=320">
-    <title>Разработка эффективных сайтов</title>
+    <title>Figjam</title>
     <link href="/css/viewer.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/slick.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,8 +48,9 @@
             <div class="slide slide_2">
                 <h2>Interested in a Passive investment?</h2>
                 <p>Look over the historical trading results of traders. Select a trader and copy their trades in real
-                    time.<p>
-                        <a href="#feedback" class="butt butt_white">Notify me!</a>
+                    time.
+                <p>
+                    <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_3">
                 <h2>Trade like you've got a robot looking over the shoulder of a Day Trader</h2>
@@ -80,7 +81,7 @@
                 </div>
                 <div class="feedback" id="feedback">
                     <p>Live the Laptop Lifestyle without the need for a Laptop...</p>
-                    <form id="sendform"action="">
+                    <form id="sendform" action="">
                         <input class="email" type="email" placeholder="email">
                         <input class='submit' type="submit" value="Notify">
                     </form>
@@ -88,6 +89,17 @@
             </div>
             <div class="right_side">
                 <div class="notebook">
+                    <div id="helper">
+
+                        <button class="active" id="play_button">
+                            <img src="img/play-icon.svg" alt="" srcset=""></button>
+                        <video playsinline id="myvideo" controls>
+
+                            <source src="video/figjam-explainer-video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+
+                    </div>
                 </div>
                 <p>How it Works</p>
             </div>
@@ -114,10 +126,10 @@
     </div>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
-        $('.slider').slick({
-            dots: true,
-            arrows: true
-        });
+    $('.slider').slick({
+        dots: true,
+        arrows: true
+    });
     </script>
 
 </body>
