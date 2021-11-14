@@ -12,7 +12,7 @@ video.addEventListener("pause", () => {
 
 btnPlay.addEventListener("click", playVid)
 
-function setupVideos() {
+function gi() {
   for (const video of document.querySelectorAll("video")) {
     video.controls = false
     video.addEventListener("mouseover", () => {
