@@ -49,8 +49,8 @@
                 <h2>Interested in a Passive investment?</h2>
                 <p>Look over the historical trading results of traders. Select a trader and copy their trades in real
                     time.
-                <p>
-                    <a href="#feedback" class="butt butt_white">Notify me!</a>
+                </p>
+                <a href="#feedback" class="butt butt_white">Notify me!</a>
             </div>
             <div class="slide slide_3">
                 <h2>Trade like you've got a robot looking over the shoulder of a Day Trader</h2>
@@ -128,7 +128,9 @@
     <script>
     $('.slider').slick({
         dots: true,
-        arrows: true
+        arrows: true,
+        autoplay: true,
+        autoplaySpeed: 5000,
     });
     </script>
 
