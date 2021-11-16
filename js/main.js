@@ -31,7 +31,6 @@ $(function () {
   "use strict"
   $("#sendform").on("submit", function (e) {
     e.preventDefault()
-    console.log("!!!")
     var email = e.target[0].value
     $.ajax({
       url: "https://email-table-back.herokuapp.com/api/emails",
@@ -51,6 +50,10 @@ $(function () {
       },
     })
     e.target[0].value = ""
+    let form = document.querySelector("#sendform")
+    form.style.display = "none"
+    let success = document.querySelector(".wait_notify")
+    success.style.display = "flex"
   })
 })
 

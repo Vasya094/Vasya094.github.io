@@ -12,6 +12,7 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&amp;subset=cyrillic"
         rel="stylesheet">
+    <link rel="icon" href="./img/favicon.ico">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -85,6 +86,10 @@
                         <input class="email" type="email" placeholder="email">
                         <input class='submit' type="submit" value="Notify">
                     </form>
+                    <div class="wait_notify">
+                        <span><img src="./img/check_yes.svg" alt="ftx"></span>
+                        <span id="subscibed">You're subscibed!</span>
+                    </div>
                 </div>
             </div>
             <div class="right_side">
@@ -121,7 +126,7 @@
                 <button class="butt butt_red">NO BULLSHIT</button>
             </div>
             <div class="gray_box bottom_box">
-                <p>Copyright (c) 2021 - FIGJAM All rights Reserved.</p>
+                <p>&copy; Copyright 2021 FIGJAM &#8482; All rights Reserved.</p>
             </div>
         </footer>
     </div>
