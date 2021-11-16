@@ -259,6 +259,11 @@ form .submit:hover {
   cursor: pointer;
 }
 
+.right_side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .right_side p {
   text-align: center;
   font-family: Poppins;
@@ -466,4 +471,11 @@ footer .black_line .butt_red {
   #play_button {
     top: 36px;
   }
+}
+
+#img_old {
+  margin-top: 8px;
+}
+#How_it_Works {
+  margin-top: 18px;
 }

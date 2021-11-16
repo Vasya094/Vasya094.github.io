@@ -35,7 +35,7 @@
                 <a href="/" class="logo">
                     <img src="./img/logo.png" alt="logo">
                 </a>
-                <p>COMING SOON! Stay tuned to something amazing</p>
+                <p>COMING SOON! Stay tuned for something amazing</p>
             </div>
             <a href="#feedback" class="butt butt_blue">Notify me!</a>
         </header>
@@ -101,7 +101,8 @@
 
                     </div>
                 </div>
-                <p>How it Works</p>
+                <img src="./img/logo.png" width="100" alt="" id="img_old">
+                <p id="How_it_Works">How it Works</p>
             </div>
         </div>
         <footer>
@@ -109,7 +110,7 @@
                 <a href="/" class="logo">
                     <img src="./img/logo.png" alt="logo">
                 </a>
-                <p>COMING SOON! Stay tuned to something amazing</p>
+                <p>It's money for JAM</p>
             </div>
             <div class="black_line">
                 <div class="pay_link">
